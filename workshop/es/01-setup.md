@@ -1,5 +1,5 @@
 <!-- l10n-sync: source-file="workshop/01-setup.md" -->
-# Parte 1: Configuración y Context Engineering
+# Parte 1: Configuración e ingeniería de contexto
 
 ---
 
@@ -45,7 +45,7 @@ En esta parte configurarás tu entorno de desarrollo **y** enseñarás a Copilot
    npm run dev
    ```
 
-> ✅ **¡La aplicación está ejecutándose en tu navegador!**
+> ✅ **¡La aplicación está en marcha en tu navegador!**
 <!-- track:vscode:end -->
 
 <!-- track:cli:start -->
@@ -98,9 +98,9 @@ Usa la ruta de instalación que corresponda a tu máquina:
 > ✅ **Ahora tienes la vista previa de la aplicación en una terminal y Copilot CLI listo en otra.**
 <!-- track:cli:end -->
 
-## Sección 2: Context Engineering
+## Sección 2: Ingeniería de contexto
 
-Context Engineering es cómo enseñas a la IA sobre tu código base. Cuanto mejor sea el contexto, mejor será cada respuesta futura.
+La ingeniería de contexto consiste en enseñar a la IA cómo es tu código. Cuanto mejor sea el contexto, mejores serán las respuestas futuras.
 
 <!-- track:vscode:start -->
 ### Tarea 1: Genera Instrucciones del Workspace con /init
@@ -114,7 +114,7 @@ Usemos el comando integrado `/init` para generar un archivo de instrucciones del
    ```
 
 2. Revisa el archivo generado — Copilot analizará tu proyecto y creará un `.github/copilot-instructions.md`.
-3. Acepta los cambios, luego **haz commit** del archivo de instrucciones.
+3. Acepta los cambios y crea un commit con el archivo de instrucciones.
 
 > **Resultado:** Todas las futuras solicitudes a Copilot ahora tienen un mapa de tu workspace incorporado.
 
@@ -122,16 +122,18 @@ Usemos el comando integrado `/init` para generar un archivo de instrucciones del
 
 **Agente en segundo plano local:**
 
-1. En el panel de Chat, haz clic en **+** → **New background agent**
-2. Ingresa el prompt:
+1. En el panel de Chat, haz clic en **+** para abrir un chat nuevo.
+2. En la parte inferior de la ventana, cambia **Local** a **Copilot CLI**.
+3. Escribe este prompt:
 
    > "Add linting rules for unused vars and improve code style; fix any errors"
 
-3. Cuando termine, **Revisa y Aplica** los cambios, luego elimina la sesión.
+4. Cuando termine, **Revisa y Aplica** los cambios; después, archiva la sesión si quieres.
 
 **Agente en la nube:**
 
-1. Inicia otro agente en segundo plano con:
+1. En el panel de Chat, haz clic en **+** para abrir un chat nuevo.
+2. En la parte inferior de la ventana, cambia **Local** a **Cloud**.
 
    > "Make the README more engaging as a landing page"
 

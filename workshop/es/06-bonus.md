@@ -23,7 +23,7 @@ Después de que ambos gráficos de contribuciones carguen, compara los totales y
 - Compara las contribuciones totales de ambos usuarios
 - Muestra **"🏆 {username} WINS! 🏆"** con un estilo de celebración si hay un ganador claro
 - Muestra **"🤝 IT'S A TIE! 🤝"** si las contribuciones son iguales
-- Agrega animación o confeti para más efecto
+- Añade animación o confeti para darle más vistosidad
 
 **Sugerencia de prompt:**
 > After both users' contribution data loads, compare total contributions and display a winner banner. Show "🏆 {username} WINS! 🏆" if one user has more contributions, or "🤝 IT'S A TIE! 🤝" if equal. Make it visually exciting with CSS animations.
@@ -51,9 +51,9 @@ Persiste los resultados de las batallas para que los usuarios puedan ver sus enf
 
 **Qué construir:**
 - Guarda cada resultado de batalla en `localStorage` (nombres de usuario, totales, ganador, marca de tiempo)
-- Agrega una sección **"Recent Battles"** debajo del área principal de batalla
+- Añade una sección **"Recent Battles"** debajo del área principal de batalla
 - Muestra las últimas 5–10 batallas con resultados
-- Agrega un botón "Clear History"
+- Añade un botón "Clear History"
 
 **Sugerencia de prompt:**
 > Save battle results to localStorage after each comparison. Add a "Recent Battles" section that displays the last 10 battles with usernames, contribution totals, the winner, and when the battle happened. Include a "Clear History" button.
@@ -62,7 +62,7 @@ Persiste los resultados de las batallas para que los usuarios puedan ver sus enf
 
 ## 🏆 Desafío 4: Efectos de Sonido
 
-Agrega efectos de sonido retro arcade usando la Web Audio API — sin necesidad de archivos externos.
+Añade efectos de sonido de arcade retro con la Web Audio API — no hacen falta archivos externos.
 
 **Qué construir:**
 - Sonido de **insertar moneda** cuando se hace clic en el botón "Battle!"
@@ -92,7 +92,7 @@ Crea suspenso con una cuenta regresiva dramática antes de revelar los resultado
 
 ## 🏆 Desafío 6: Leyenda de Contribuciones
 
-Agrega una leyenda de escala de colores que coincida con la paleta de colores del gráfico de contribuciones.
+Añade una leyenda de escala de colores que coincida con la paleta del gráfico de contribuciones.
 
 **Qué construir:**
 - Una leyenda horizontal mostrando los niveles de intensidad de contribuciones
@@ -130,7 +130,7 @@ Si quieres explorar más funcionalidades de Copilot CLI después del taller prin
 - Usa `/session` y `/session plan` para inspeccionar cómo el CLI está rastreando tu trabajo actual.
 <!-- track:cli:end -->
 
-## �� ¡Felicitaciones!
+## 🎊 ¡Enhorabuena!
 
 ¡Has completado el taller **Mona Mayhem: GitHub Battle**! Esto es lo que lograste:
 
@@ -147,7 +147,7 @@ Si quieres explorar más funcionalidades de Copilot CLI después del taller prin
 
 | Habilidad | Lo Que Practicaste |
 |-----------|-------------------|
-| **Context Engineering** | Darle a Copilot los archivos, instrucciones y restricciones correctas |
+| **Ingeniería de contexto** | Proporcionar a Copilot los archivos, las instrucciones y las restricciones adecuadas |
 | **Planificación** | Generar y refinar planes de implementación antes de programar |
 | **Codificación Agéntica** | Delegar trabajo en múltiples archivos y múltiples pasos a Copilot |
 | **Iteración de Diseño** | Comenzar desde una dirección visual y refinar hacia un resultado pulido |
